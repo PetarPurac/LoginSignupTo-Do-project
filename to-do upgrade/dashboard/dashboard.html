@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dashboard/dash.css">
+    
+    <title>To Do List</title>
+</head>
+<body>
+    <main>
+        <section>
+            <header class="header">
+                <h1>Create your own To-Do List</h1>
+                <button type="button" id="backToLoginBtn" >Back to login</button>
+                <button type="button" id="userBtn"><img src="/dashboard/img/settings.png" alt="settings"></button>
+            </header>
+
+            <div class="dashboard">
+                <div class="add-item-container">
+                    <h4 id="shopping-list-title" class="main-content-heading">My To-Do List</h4>
+                    <form action="#" class="add-item-form">
+                        <input id="add-item-text" type="text" class="add-item-text" />
+                        <input id="add-button" type="button" value="Add" class="add-item-button" title="Add Item" />
+                        <ul class="list-group" id= "list-items"></ul>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/dashboard/dash.js"></script>
+</body>
+
+</html>

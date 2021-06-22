@@ -1,0 +1,202 @@
+/* DASHBOARD */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+body{
+    overflow-x: hidden;
+    background-color: lightsteelblue;
+}
+section{
+     display:flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    margin-top: 20px;
+}
+.dashboard{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    width:80%;
+    height:80vh;
+    background-color: lightcoral;
+    border-radius: 20px;;
+}
+#backToLoginBtn{
+    background-color: lightcoral;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left:20px;
+    height: 5vh;
+    width: 100px;
+    border:none;
+    color:white;
+    transition:all .5s ease;
+}
+#backToLoginBtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 2px lightslategray;
+}
+.dashboard{
+    background-color: lightcoral;
+    width: 80%;
+    
+}
+.add-item-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+    height:85%;
+    margin: 5% auto;
+    background-color: lightsteelblue;
+    border-radius: 15px;
+
+}
+#shopping-list-title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+.add-item-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    border-radius: 10px;
+    height: 70%;
+}
+.add-item-text{
+    
+    width: 100%;
+    top:0%;
+
+    position: fixed;
+}
+.add-item-button{
+    top:5%;
+    position: fixed;
+}
+.list-group{
+
+    max-height: 80%;
+   position: fixed;
+    border-radius: 5px;
+}
+
+.LIclass{
+    /* background-color: #fff; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    max-height: 70px;
+    
+}
+.SpanClass{
+    font-size: 15px;
+    padding-right: 20px;
+    max-height: 70%;
+}
+.add-item-form input{
+    width: 80%;
+    border-radius: 10px;
+    
+}
+.add-item-form input:active{
+    border: none;
+    width: 80%;
+    
+}
+#add-button{
+    margin-top: 5px;
+    width: 50%;
+}
+
+.list-group-item-button{
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+text-decoration: none;
+color:  black;}
+
+#userBtn{
+    position: absolute;
+    right: 1vw;
+    top: 1vh;
+    border: none;
+transition: transform .5s ease;
+width:64px;
+height: 64px;
+border-radius: 15px;
+cursor: pointer;
+box-shadow: 5px 5px 15px 2px  lightcoral;
+}
+#userBtn:hover{
+    transform: scale(1.1);
+}
+.userSettings{
+    position: absolute;
+    height: 70vh;
+    width: 60%;
+    right: 50%;
+    top:50%;
+    transform: translate(50%, -50%);
+    opacity: 1;
+    color: white;
+    background-color: lightslategrey;
+    border-radius: 20px;
+
+    
+}
+.hide{
+    display:none;
+}
+.heading{
+    text-align: center;
+    padding: 30px;
+}
+.paragraph{
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+}
+#xBtn{
+    width:30px;
+    height:30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: lightsteelblue;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow:2px 2px 5px 2px  lightcoral;
+    cursor: pointer;
+    transition: transform .5s ease;
+}
+#xBtn:hover{
+    transform: scale(1.2);
+}
